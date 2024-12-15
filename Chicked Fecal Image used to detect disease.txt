@@ -1,0 +1,18 @@
+Chicked Fecal Image used to detect disease
+
+
+1.) Here started project with bash terminal.
+
+There was error while running codes of data ingestion
+try:
+    config = ConfigurationManager()
+    data_ingestion_config = config.get_data_ingestion_config()
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+    data_ingestion.download_file()
+    data_ingestion.extract_zip_file()
+except Exception as e:
+    raise e
+
+Changed terminal to cmd to find there was no error.
+
+
