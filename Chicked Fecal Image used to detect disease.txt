@@ -1,4 +1,4 @@
-Chicked Fecal Image used to detect disease
+Chicked Fecal Image used to detect disease. Errors encountered :
 
 
 1.) Here started project with bash terminal.
@@ -16,3 +16,6 @@ except Exception as e:
 Changed terminal to cmd to find there was no error.
 
 
+2) If there is a mismatch between the actual file name and the name used in the import statement,
+the white shade that would appear on the file name in VS Code indicates that the file is not being imported correctly.
+After correcting the import statement with the correct name, the file name was highlighted with a blue shade.
